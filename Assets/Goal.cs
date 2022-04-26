@@ -2,12 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class VSTest : MonoBehaviour
+public class Goal : MonoBehaviour
 {
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log("ÉSÅ[ÉãÅI");
+    }
     // Start is called before the first frame update
     void Start()
     {
-     //Debug.Log("Hello Unity!");
+        
     }
 
     // Update is called once per frame
